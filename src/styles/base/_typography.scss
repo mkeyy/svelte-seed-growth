@@ -12,9 +12,9 @@ body {
 h1,
 h2,
 h3,
-.ivn-h1,
-.ivn-h2,
-.ivn-h3 {
+.ssg-h1,
+.ssg-h2,
+.ssg-h3 {
   font-family: $f-fancy;
   font-weight: 400;
   text-transform: uppercase;
@@ -24,7 +24,7 @@ h3,
 }
 
 h1,
-.ivn-h1 {
+.ssg-h1 {
   font-size: 32px;
   line-height: 30px;
 
@@ -40,7 +40,7 @@ h1,
 }
 
 h2,
-.ivn-h2 {
+.ssg-h2 {
   font-size: 24px;
   line-height: 29px;
 
@@ -56,7 +56,7 @@ h2,
 }
 
 h3,
-.ivn-h3 {
+.ssg-h3 {
   font-size: 20px;
   line-height: 24px;
 
@@ -90,7 +90,7 @@ strong {
 
 a,
 button {
-  @include ivn-on-event(true) {
+  @include ssg-on-event(true) {
     text-decoration: none;
     box-shadow: none;
     outline: none;
